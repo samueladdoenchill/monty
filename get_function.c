@@ -5,7 +5,6 @@
 /**
  * get_opcode_function - Retrieves function associated with opcode
  * @op: The opcode
- *
  * Return: Structure containing associated function
  */
 instruction_t get_function(char *op)

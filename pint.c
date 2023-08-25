@@ -3,10 +3,11 @@
 #include <stdlib.h>
 
 /**
- * print_top_value - Function to print value at the top of
+ * print_func - Function to print value at the top of
  * stack followed by a new line
  * @head: Pointer to the first element of stack
  * @line_number: The line number where operation is performed
+ *
  * Return: None
 */
 
