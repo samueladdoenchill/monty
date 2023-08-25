@@ -7,6 +7,7 @@
  * stack followed by a new line
  * @head: Pointer to the first element of stack
  * @line_number: The line number where operation is performed
+ *
  * Return: None
 */
 
