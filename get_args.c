@@ -4,7 +4,7 @@
 #include "monty.h"
 
 /**
- * get_string_length - Calculates the length of a string
+ * _strlen - Calculates the length of a string
  * @s: The input string
  *
  * Return: The length of the string
@@ -33,7 +33,7 @@ void remove_newline(char *s)
 }
 
 /**
- * duplicate_string - Creates a duplicate of the input string
+ * _strdup - Creates a duplicate of the input string
  * @str: The string to be duplicated
  *
  * Return: Pointer to the duplicated string or NULL on failure
@@ -61,7 +61,7 @@ char *_strdup(char *str)
 }
 
 /**
- * tokenize_string - Splits string into array based on given token
+ * get_args - Splits string into array based on given token
  * @s: The input string
  * @t: The token used for splitting
  *
