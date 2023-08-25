@@ -6,9 +6,8 @@
  * push - Adds an element to the top of the stack
  * @stack: Pointer to the top node of the stack
  * @line_number: The line number
- * 
  * Return: None
-*/
+ */
 void push(stack_t **stack, unsigned int line_number)
 {
 	stack_t *new_node = NULL;

@@ -5,9 +5,8 @@
  * followed by new line
  * @head: Pointer to the first element in the stack
  * @line_number: The line number
- * 
  * Return: None
-*/
+ */
 
 void pstr(stack_t **head, unsigned int line_number)
 {
